@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dynuxwrn02sd5"
+path="res://.godot/imported/8bit-Battle01_loop.ogg-c68f547a752f4c5ec5e8dbf24fdd77ef.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Legendary_JRPG_Battle_Music_Pack/10 Battle1 (8bit style)/RPGmaker/8bit-Battle01_loop.ogg"
+dest_files=["res://.godot/imported/8bit-Battle01_loop.ogg-c68f547a752f4c5ec5e8dbf24fdd77ef.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

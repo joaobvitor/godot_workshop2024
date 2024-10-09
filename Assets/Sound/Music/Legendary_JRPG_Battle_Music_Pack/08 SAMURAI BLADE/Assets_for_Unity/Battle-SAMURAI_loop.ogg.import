@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://7fvml5hbrvdn"
+path="res://.godot/imported/Battle-SAMURAI_loop.ogg-5abbf227f9607f8b335b35a96b6dccd6.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Legendary_JRPG_Battle_Music_Pack/08 SAMURAI BLADE/Assets_for_Unity/Battle-SAMURAI_loop.ogg"
+dest_files=["res://.godot/imported/Battle-SAMURAI_loop.ogg-5abbf227f9607f8b335b35a96b6dccd6.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

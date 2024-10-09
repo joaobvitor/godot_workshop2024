@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://biqsme8ysd0iq"
+path="res://.godot/imported/Battle-Grief_loop.ogg-1061fe2694c045f9e8de418a7ada6084.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Legendary_JRPG_Battle_Music_Pack/03 Grief of Souls/Assets_for_Unity/Battle-Grief_loop.ogg"
+dest_files=["res://.godot/imported/Battle-Grief_loop.ogg-1061fe2694c045f9e8de418a7ada6084.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

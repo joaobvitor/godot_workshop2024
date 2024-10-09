@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://de3fryujk1f5x"
+path="res://.godot/imported/8bit-Battle01.mp3-b26315fa01038c97ac86c15373e07d7b.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Legendary_JRPG_Battle_Music_Pack/10 Battle1 (8bit style)/8bit-Battle01.mp3"
+dest_files=["res://.godot/imported/8bit-Battle01.mp3-b26315fa01038c97ac86c15373e07d7b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

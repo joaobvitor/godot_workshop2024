@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://770kqusooxnf"
+path="res://.godot/imported/Battle-rapier.mp3-52aa07fd3153f3fbd5adcd796730d645.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Legendary_JRPG_Battle_Music_Pack/05 The Girl with a Holy Rapier/Battle-rapier.mp3"
+dest_files=["res://.godot/imported/Battle-rapier.mp3-52aa07fd3153f3fbd5adcd796730d645.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

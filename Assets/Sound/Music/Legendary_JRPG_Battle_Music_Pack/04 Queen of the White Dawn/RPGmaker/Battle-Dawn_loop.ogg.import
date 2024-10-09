@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dxr8rjqux4vag"
+path="res://.godot/imported/Battle-Dawn_loop.ogg-ada68f7ecad6027bc4f026a5cfba9a38.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Legendary_JRPG_Battle_Music_Pack/04 Queen of the White Dawn/RPGmaker/Battle-Dawn_loop.ogg"
+dest_files=["res://.godot/imported/Battle-Dawn_loop.ogg-ada68f7ecad6027bc4f026a5cfba9a38.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

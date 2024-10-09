@@ -1,0 +1,76 @@
+[gd_scene load_steps=11 format=3 uid="uid://dfo7fpngah71l"]
+
+[ext_resource type="Script" path="res://Scripts/enemy.gd" id="1_bd4ci"]
+[ext_resource type="Texture2D" uid="uid://ciiukfwjo4ait" path="res://Assets/Sprites/Character/Warrior/SpriteSheet/Warrior_Sheet-Effect.png" id="2_sx00c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sfhov"]
+atlas = ExtResource("2_sx00c")
+region = Rect2(0, 44, 69, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_46aj0"]
+atlas = ExtResource("2_sx00c")
+region = Rect2(69, 44, 69, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5s082"]
+atlas = ExtResource("2_sx00c")
+region = Rect2(138, 44, 69, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s08on"]
+atlas = ExtResource("2_sx00c")
+region = Rect2(207, 44, 69, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_skb43"]
+atlas = ExtResource("2_sx00c")
+region = Rect2(276, 44, 69, 44)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wma0d"]
+atlas = ExtResource("2_sx00c")
+region = Rect2(345, 44, 69, 44)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_tpik7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sfhov")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_46aj0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5s082")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s08on")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_skb43")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wma0d")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 8.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ds548"]
+radius = 6.0
+height = 24.0
+
+[node name="Enemy" type="CharacterBody2D"]
+position = Vector2(8, -21)
+collision_layer = 4
+script = ExtResource("1_bd4ci")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_tpik7")
+animation = &"Run"
+autoplay = "Run"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-8, 9)
+shape = SubResource("CapsuleShape2D_ds548")
+
+[node name="RayCast" type="RayCast2D" parent="."]
+position = Vector2(-8, 7)
+target_position = Vector2(12, 0)

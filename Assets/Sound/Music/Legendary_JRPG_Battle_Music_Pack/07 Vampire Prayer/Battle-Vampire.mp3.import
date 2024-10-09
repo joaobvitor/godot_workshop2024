@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://4lr1mw8mo0g7"
+path="res://.godot/imported/Battle-Vampire.mp3-eb24fb21124782bca0d816c2b66a0e04.mp3str"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Legendary_JRPG_Battle_Music_Pack/07 Vampire Prayer/Battle-Vampire.mp3"
+dest_files=["res://.godot/imported/Battle-Vampire.mp3-eb24fb21124782bca0d816c2b66a0e04.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

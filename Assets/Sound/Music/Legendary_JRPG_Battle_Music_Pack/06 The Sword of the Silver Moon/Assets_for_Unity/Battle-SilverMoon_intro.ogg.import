@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bnlqrovejjnhc"
+path="res://.godot/imported/Battle-SilverMoon_intro.ogg-a3e8acfcba95349dd142f175a349cfe5.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Legendary_JRPG_Battle_Music_Pack/06 The Sword of the Silver Moon/Assets_for_Unity/Battle-SilverMoon_intro.ogg"
+dest_files=["res://.godot/imported/Battle-SilverMoon_intro.ogg-a3e8acfcba95349dd142f175a349cfe5.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

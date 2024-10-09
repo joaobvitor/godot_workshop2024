@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://ptubvv0ap21h"]
+
+[ext_resource type="Script" path="res://Scripts/trap.gd" id="1_01kfb"]
+[ext_resource type="Texture2D" uid="uid://r74lrk3xps01" path="res://Assets/Sprites/Map/3 Objects/Grass/16.png" id="2_lnsn2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r6hac"]
+radius = 7.0
+
+[node name="Trap" type="Area2D"]
+position = Vector2(0, 8)
+collision_mask = 2
+script = ExtResource("1_01kfb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_lnsn2")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("CircleShape2D_r6hac")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b3o1nwypov4x1"
+path="res://.godot/imported/Battle-Conflict_intrto.ogg-c122c2f75b14ce30b472c9d6a2fbead2.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Legendary_JRPG_Battle_Music_Pack/02 Conflict/Assets_for_Unity/Battle-Conflict_intrto.ogg"
+dest_files=["res://.godot/imported/Battle-Conflict_intrto.ogg-c122c2f75b14ce30b472c9d6a2fbead2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

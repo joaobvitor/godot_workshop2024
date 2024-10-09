@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://l3iflsorsnql"
+path="res://.godot/imported/Battle-Vampire_loop.ogg-e72057365559f38294768490d16d425d.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Sound/Music/Legendary_JRPG_Battle_Music_Pack/07 Vampire Prayer/Assets_for_Unity/Battle-Vampire_loop.ogg"
+dest_files=["res://.godot/imported/Battle-Vampire_loop.ogg-e72057365559f38294768490d16d425d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
