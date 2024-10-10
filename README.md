@@ -1,4 +1,4 @@
-# Godot Workshop 2024
+# Godot Workshop 2024 by Lab de Jogos @IST
 
 ## Assets used
 - Warrior: https://clembod.itch.io/warrior-free-animation-set
